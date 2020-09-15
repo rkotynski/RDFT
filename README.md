@@ -6,10 +6,14 @@ Transform is evaluated many times at a limited number of fixed
 frequencies on large sparse matrices (with same dimensions but with
 changing positions and number of non-zero elements).
 
- restricted domain Fourier Transform for Matlab/Octave
+The main function is included in the RDFTPrep.m file, and an example showing its use is in RDFT_exampl.m
 
-If you find this program useful, please cite the work: M. Bancerek, K. Czajkowski, R. Kotynski "Far-field intensity signature of sub-wavelength microscopic objects," Arxiv, 2020   (RDFT is described in the Appendix)
 
+If you find this program useful, please cite the work:
+M. Bancerek, K. Czajkowski, and R. Kotynski "Far-field intensity signature of sub-wavelength microscopic objects,"
+ https://arxiv.org/abs/2009.06324 (RDFT is described in the Appendix)
+
+Contact info: rafalk@fuw.edu.pl
 
 ----------------------------------------------------------------------------------------------------------------------------
 Below you may find a typical speedup possible to obtain with respect to fft2() function (which uses non-sparse FFTW package)

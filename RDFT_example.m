@@ -7,8 +7,10 @@
 
 % This program shows how to use RDFT
 %
-% If you find this program useful, please cite the work: M. Bancerek, K. Czajkowski, R. Kotynski "Far-field intensity signature of sub-wavelength microscopic objects," Arxiv, 2020
-% (RDFT is described in the Appendix)
+% If you find this program useful, please cite the work:
+% M. Bancerek, K. Czajkowski, R. Kotynski "Far-field intensity signature of sub-wavelength microscopic objects,"
+% https://arxiv.org/abs/2009.06324 (RDFT is described in the Appendix)
+%
 % Copyright (C) 2020 R. Kotyński, rafalk@fuw.edu.pl
 % Funding acknowledgement: National Science Center, Poland, UMO:2017/27/B/ST7/00885
 %

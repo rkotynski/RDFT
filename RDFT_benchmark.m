@@ -2,7 +2,9 @@
 % This is a Matlab/Octave example program which calculates a 2D Discrete Fourier Transform
 % of sparse matrices at fixed frequencies
 %
-% If you find this program useful, please cite the work: M. Bancerek, K. Czajkowski, R. Kotynski "Far-field intensity signature of sub-wavelength microscopic objects," Arxiv, 2020
+% If you find this program useful, please cite the work:
+% M. Bancerek, K. Czajkowski, R. Kotynski "Far-field intensity signature of sub-wavelength microscopic objects,"
+% https://arxiv.org/abs/2009.06324 (RDFT is described in the Appendix)
 %
 %
 % Copyright (C) 2020 R. Kotyński, rafalk@fuw.edu.pl
