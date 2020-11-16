@@ -10,8 +10,8 @@ The main function is included in the RDFTPrep.m file, and an example showing its
 
 
 If you find this program useful, please cite the work:
-M. Bancerek, K. Czajkowski, and R. Kotynski "Far-field intensity signature of sub-wavelength microscopic objects,"
- https://arxiv.org/abs/2009.06324 (RDFT is described in the Appendix)
+Maria Bancerek, Krzysztof M. Czajkowski, and Rafał Kotyński, "Far-field signature of sub-wavelength microscopic objects," Opt. Express 28, 36206-36218 (2020), https://doi.org/10.1364/OE.410240
+(RDFT is described in the Appendix)
 
 Contact info: rafalk@fuw.edu.pl
 
