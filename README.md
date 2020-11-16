@@ -14,6 +14,9 @@ Maria Bancerek, Krzysztof M. Czajkowski, and Rafał Kotyński, "Far-field signat
 (RDFT is described in the Appendix)
 
 Contact info: rafalk@fuw.edu.pl
+Download: https://github.com/rkotynski/RDFT
+License: GNU GPL v3.0
+Acknowledgement: National science center, Poland, Grant no. 2017/27/B/ST7/00885
 
 ----------------------------------------------------------------------------------------------------------------------------
 Below you may find a typical speedup possible to obtain with respect to fft2() function (which uses non-sparse FFTW package)
