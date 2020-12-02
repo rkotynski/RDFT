@@ -1,22 +1,20 @@
-# RDFT  restricted domain Fourier Transform for Matlab/Octave
-(a Python version will be also includesd soon)
+# RDFT  restricted domain Fourier Transform for Matlab/Octave/Python
 
 A typical situation when RDFT is usefull is when the 2D Discrete Fourier 
 Transform is evaluated many times at a limited number of fixed 
 frequencies on large sparse matrices (with same dimensions but with
 changing positions and number of non-zero elements).
 
-The main function is included in the RDFTPrep.m file, and an example showing its use is in RDFT_exampl.m
+The main function is included in the RDFTPrep.m (RDFTPrep.py) file, and an example showing its use is in RDFT_exampl.m (RDFT_exampl.py). RDFT has been written in Octave/Matlab first, and the Python code is a translation.
 
-
-If you find this program useful, please cite the work:
+If you find this program useful, please cite our work:
 Maria Bancerek, Krzysztof M. Czajkowski, and Rafał Kotyński, "Far-field signature of sub-wavelength microscopic objects," Opt. Express 28, 36206-36218 (2020), https://doi.org/10.1364/OE.410240
 (RDFT is described in the Appendix)
 
 Contact info: rafalk@fuw.edu.pl
 Download: https://github.com/rkotynski/RDFT
 License: GNU GPL v3.0
-Acknowledgement: National science center, Poland, Grant no. 2017/27/B/ST7/00885
+Acknowledgement: National Science Center, Poland, Grant no. 2017/27/B/ST7/00885
 
 ----------------------------------------------------------------------------------------------------------------------------
 Below you may find a typical speedup possible to obtain with respect to fft2() function (which uses non-sparse FFTW package)
